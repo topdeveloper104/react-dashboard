@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { browserHistory } from 'react-router';
-import '../App.css';
 
 class NavigationMenu extends Component {
 
@@ -11,6 +10,10 @@ class NavigationMenu extends Component {
         return (
             <aside className="main-sidebar">
                 <section className="sidebar" >
+                    <div className="header">
+                        <img src="" alt=""/>
+                        <span>powered by...</span>
+                    </div>
                     <ul className="sidebar-menu">
                         <li className="active treeview">
                             <a onClick={() => this.gotoPage('dashboard')}>
@@ -35,30 +38,30 @@ class NavigationMenu extends Component {
                             </ul>
                         </li>
                         <li className="treeview">
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/kampanyalar.svg" alt=""/></i>
                                 <span>Kampanyalar</span>
                                 <i className="fa fa-caret-left pull-right"></i>
                             </a>
                             <ul className="treeview-menu">
-                                <li><a href="/"><i className="fa "></i> Sub Menu 1</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 2</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 3</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 4</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 1</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 2</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 3</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 4</a></li>
                             </ul>
                         </li>
                         <li className="treeview">
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/mesajlar.svg" alt=""/></i>
                                 <span>Mesajlar</span>
                                 <small className="label pull-right bg-red">24</small>
                                 <i className="fa fa-caret-left pull-right"></i>
                             </a>
                             <ul className="treeview-menu">
-                                <li><a href="/"><i className="fa "></i> Sub Menu 1</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 2</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 3</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 4</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 1</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 2</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 3</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 4</a></li>
                             </ul>
                         </li>
                         <li>
@@ -68,79 +71,79 @@ class NavigationMenu extends Component {
                             </a>
                         </li>
                         <li className="treeview">
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/reklamlar.svg" alt=""/></i>
                                 <span>Reklamlar</span>
                                 <i className="fa fa-caret-left pull-right"></i>
                             </a>
                             <ul className="treeview-menu">
-                                <li><a href="/"><i className="fa "></i> Sub Menu 1</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 2</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 3</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 4</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 1</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 2</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 3</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 4</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/personel.svg" alt=""/></i>
                                 <span>Personel</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/dokumanlar.svg" alt=""/></i>
                                 <span>Dokumanlar</span>
                             </a>
                         </li>
                         <li className="treeview">
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/sorgulamalar.svg" alt=""/></i>
                                 <span>Sorgulamalar</span>
                                 <i className="fa fa-caret-left pull-right"></i>
                             </a>
                             <ul className="treeview-menu">
-                                <li><a href="/"><i className="fa "></i> Sub Menu 1</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 2</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 3</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 4</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 1</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 2</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 3</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 4</a></li>
                             </ul>
                         </li>
                         <li>
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/sinyal.svg" alt=""/></i>
                                 <span>Sinyal</span>
                             </a>
                         </li>
                         <li className="treeview">
-                            <a href="/">
+                            <a href="">
                                 <i className="fa"><img src="assets/img/ayarlar.svg" alt=""/></i>
                                 <span>Ayarlar</span>
                                 <i className="fa fa-caret-left pull-right"></i>
                             </a>
                             <ul className="treeview-menu">
-                                <li><a href="/"><i className="fa "></i> Sub Menu 1</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 2</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 3</a></li>
-                                <li><a href="/"><i className="fa "></i> Sub Menu 4</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 1</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 2</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 3</a></li>
+                                <li><a href=""><i className="fa "></i> Sub Menu 4</a></li>
                             </ul>
                         </li>
                         <li className="header"></li>
                         <li className="image-text">
-                            <img src="assets/img/dashboard.svg" alt=""/>
+                            <img className="svg" src="assets/img/dashboard.svg" alt=""/>
                             <div>
                                 <p className="">Evsin Ugurluoglu</p>
                                 <p className="greytext">Garaji Sepeti Temsilcisi</p>
                             </div>
                         </li>
                         <li className="image-text">
-                            <img src="assets/img/destek_hatti.svg" alt=""/>
+                            <img className="svg" src="assets/img/destek_hatti.svg" alt=""/>
                             <div>
                                 <p className="greytext">Tamir/Bakim Destek Hatti</p>
                                 <p className="">0212 321 69 34</p>
                             </div>
                         </li>
                         <li className="image-text">
-                            <img src="assets/img/yardim_hatti.svg" alt=""/>
+                            <img className="svg" src="assets/img/yardim_hatti.svg" alt=""/>
                             <div>
                                 <p className="greytext">Tamir/Bakim</p>
                                 <p className="">YARDIM</p>

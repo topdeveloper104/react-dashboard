@@ -14,7 +14,6 @@ import Example from './pages/example';
 import HeaderBar from './components/header';
 import NavigationMenu from './components/navigation-menu';
 import Footer from './components/footer';
-
 import './App.css';
 
 class App extends Component {
@@ -22,9 +21,7 @@ class App extends Component {
     return (
         <div className="wrapper">
 			<HeaderBar />
-			
 			<NavigationMenu />
-			
 			<Router history={browserHistory}>
 				{/* <IndexRoute component={Dashboard} /> */}
 				<Route path="/" component={Dashboard} />
@@ -38,12 +35,8 @@ class App extends Component {
 				</Route>
 				<Router path="/example" component={Example} />
 			</Router>
-			
 			<Footer />
-
 		</div>  
-		
-			
     );
   }
 }

@@ -13,19 +13,19 @@ class HeaderNotifications extends Component {
     componentDidMount(){
         var notifications = [{
             content: '5 new members joined today',
-            theme: 'fa fa-users text-aqua'
+            theme: 'fa fa-users'
         }, {
             content: 'Very long description here that may not fit into the page and may cause design problems',
-            theme: 'fa fa-warning text-yellow'
+            theme: 'fa fa-warning'
         }, {
             content: '5 new members joined',
-            theme: 'fa fa-users text-red'
+            theme: 'fa fa-users'
         }, {
             content: '25 sales made',
-            theme: 'fa fa-shopping-cart text-green'
+            theme: 'fa fa-shopping-cart'
         }, {
             content: 'You changed your username',
-            className: 'fa fa-user text-red'
+            className: 'fa fa-user'
         }];
 
         this.setState({

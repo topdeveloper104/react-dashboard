@@ -54,8 +54,9 @@ class Footer extends Component {
                             </ul>
                         </Grid.Column>
                         <Grid.Column>
-                            <img src="assets/img/badge-google.svg" className="" alt=""/>
-                            <img src="assets/img/badge-apple.svg" className="" alt=""/>
+                                <img src="" alt="" />
+                                <img className="app-store" src="assets/img/google.png" alt=""/>
+                                <img className="app-store" src="assets/img/apple.png"  alt=""/>
                         </Grid.Column>
                     </Grid.Row>
                     <Grid.Row columns={1} className="contact">
